@@ -7,7 +7,7 @@ import base64
 app = Flask(__name__)
 
 # Load the model
-new_model = load_model(r"D:\DOWNLOADS\model_100.h5")
+new_model = load_model(r"G:\My Drive\final31.h5")
 
 # Function to process uploaded image
 def process_image(image):
